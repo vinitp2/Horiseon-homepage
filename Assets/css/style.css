@@ -1,20 +1,17 @@
 * {
+    /*For main/outer box*/
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
-    
-}
-
-#headingDisplay{
-    display: block;
-    font-size: initial;
+    margin: 0;   
 }
 
 body {
+    /*setting initial background color*/
     background-color: #d9dcd6;
 }
 
 .header {
+    /*header class to be used in the header element.*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -22,15 +19,18 @@ body {
 }
 
 .header h1 {
+    /*in order to make heading inline in <h1> element in the "header" class*/
     display: inline-block;
     font-size: 48px;
 }
 
 .header h1 .seo {
+    /*to apply different formatting on the "seo" in Horiseon*/
     color: #d9dcd6;
 }
 
 .header div {
+    /*applying font properties and alignments to <div> element in "header" class.*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,25 +38,26 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
 .header div ul li {
+    /*applying inline display and margin to <div>,<ul> and <li> elements in "header" class.*/ 
     display: inline-block;
     margin-left: 25px;
+    font-size: initial;
 }
 
 a {
+    /*apply same text color to all the anchor(<a>) tags.*/
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
-    font-size: 16px;
+    /*applies font size for all the <p> tags.*/
+    font-size: 14px;
 }
 
 #hero {
+    /*id created to apply margin to background image.*/
     height: 800px;
     width: 100%;
     margin-bottom: 15px;
@@ -65,22 +66,26 @@ p {
 }
 
 .float-left {
+    /*Class created to have the image floating to the left of the text/content*/
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /*Class created to have the image floating to the right of the text/content*/
     float: right;
     margin-left: 25px;
 }
 
 .content {
+    /*Class created to format the text inside the div along with an image*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .benefits {
+    /*Class created to format the right side of the webpage. Contains margin and font properties.*/
     margin-right: 15px;
     margin-bottom: 15px;
     padding: 20px;
@@ -93,55 +98,65 @@ p {
 }
 
 .benefit-lead {
+    /*Class created to apply margin and text color to division "benfit-lead"*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-brand {
+    /*Class created to apply margin and text color to division "benfit-brand"*/
+
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
+    /*Class created to apply margin and text color to division "benfit-cost"*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-lead h3 {
+    /*applying alignment and margin to <h3> element in "benfit-lead" class*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-brand h3 {
+    /*applying alignment and margin to <h3> element in "benfit-brand" class*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-cost h3 {
+    /*applying alignment and margin to <h3> element in "benfit-cost" class*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-lead img {
-
+    /*applyinf margin, display type and max-width to <img> element in "benfit-lead" class*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-brand img {
+    /*applying margin, display type and max-width to <img> element in "benfit-brand" class*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-cost img {
+    /*applying margin, display type and max-widht to <img> element in "benfit-cost" class*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .search-engine-optimization {
+    /*Class created to apply margin, padding, font properties and text & background color to <div> in "search-engine-optimization" class*/
     margin-left: -5px;
     margin-bottom: 15px;
     padding: 50px;
@@ -153,6 +168,7 @@ p {
 }
 
 .online-reputation-management {
+    /*Class created to apply margin, padding, font properties and text & background color to <div> in "online-reputation-management" class*/
     margin-left: -5px;
     margin-bottom: 15px;
     padding: 50px;
@@ -163,6 +179,7 @@ p {
 }
 
 .social-media-marketing {
+    /*Class created to apply margin, padding, font properties and text & background color to <div> in "social-media-marketing" class*/
     margin-left: -5px;
     margin-bottom: 15px;
     padding: 50px;
@@ -173,33 +190,40 @@ p {
 }
 
 .search-engine-optimization img {
+    /*assigning max-height to <img> element in "search-engine-optimization" class*/
     max-height: 200px;
 }
 
 .online-reputation-management img {
+    /*assigning max-height to <img> element in "online-reputation-management" class*/
     max-height: 200px;
 }
 
 .social-media-marketing img {
+    /*assigning max-height to <img> element in "social-media-marketing" class*/
     max-height: 200px;
 }
 
 .search-engine-optimization h2 {
+    /*assigning margin and font properties to <h2> element in "search-engine-optimization" class*/
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 29px;
 }
 
 .online-reputation-management h2 {
+    /*assigning margin and font properties to <h2> element in "online-reputation-management" class*/
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 29px;
 }
 
 .social-media-marketing h2 {
+    /*assigning margin and font properties to <h2> element in "social-media-marketing" class*/
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 29px;
 }
 
 .footer {
+    /*Class created to assign padding, alignment and font properties.*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -207,5 +231,6 @@ p {
 }
 
 .footer h2 {
+    /*assigning font-size to <h2> element in "footer" class.*/
     font-size: 20px;
 }
